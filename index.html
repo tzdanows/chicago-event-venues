@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicago MK Event Venues Comparison</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1A202C; /* Dark background */
+            color: #E2E8F0; /* Light text */
+        }
+        .container {
+            max-width: 1400px;
+            background-color: #2D3748; /* Slightly lighter dark for container */
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 1400px;
+        }
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #4A5568; /* Darker border */
+            vertical-align: top;
+        }
+        th {
+            background-color: #00A6ED; /* Brilliant Blue */
+            color: white;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        tr:nth-child(even) {
+            background-color: #242D3B; /* Slightly different dark for even rows */
+        }
+        tr:hover {
+            background-color: #3A475C; /* Light blue on hover */
+        }
+        a {
+            color: #00A6ED; /* Brilliant Blue */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="container mx-auto rounded-lg shadow-xl p-6 md:p-10 relative">
+        <!-- Logo pointing to the static folder -->
+        <img src="static/chi_mk_color.png" alt="Chicago MK Logo" class="absolute top-6 left-6 h-16 w-auto">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-[#00A6ED] mb-4">Chicago Event Venues Comparison</h1>
+            <p class="text-lg md:text-xl text-gray-300">Detailed analysis for strategic event planning</p>
+        </header>
+
+        <div class="mb-10 p-6 bg-[#3A475C] border-l-4 border-[#00A6ED] rounded-lg shadow-md mt-20 md:mt-0">
+            <h2 class="text-2xl md:text-3xl font-bold text-[#00A6ED] mb-4">Top Venue Recommendations for Our Criteria</h2>
+            <p class="text-lg text-gray-200 mb-4">Based on your requirements for <strong>400+ capacity</strong>, <strong>non-profit/hobbyist discounts</strong>, <strong>proximity to public transit</strong>, and the need for <strong>A/V and good A/C</strong>, we recommend the following venues as your strongest potential fits:</p>
+            <ul class="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                    <span class="font-semibold text-white">Harold Washington Public Library, Winter Garden:</span> Offers explicit non-profit rates and exceptional public transit access in the Loop. Its spacious Winter Garden is suitable for large events, and as a modern public building, it's expected to have good A/V equipment and A/C.
+                </li>
+                <li>
+                    <span class="font-semibold text-white">Moonlight Studios:</span> Provides a significant 20% discount for non-profits and offers large, flexible industrial-chic spaces (15,000+ sq ft) in the West Loop with good transit proximity. A/V capabilities are highly likely given its "production studio" nature.
+                </li>
+                <li>
+                    <span class="font-semibold text-white">Artifact Events:</span> Offers reduced rates for non-profits and features a large (28,000 sq ft) industrial-loft style space with good access to the Brown Line and Metra.
+                </li>
+            </ul>
+            <p class="text-sm text-gray-400 mt-4">While many large venues offer A/V and A/C, direct confirmation with each venue is always recommended to ensure specific needs are met.</p>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 9%;">Venue Name</th>
+                        <th style="width: 9%;">Address</th>
+                        <th style="width: 5%;">Website Link</th>
+                        <th style="width: 8%;">Interior & Exterior Photos</th>
+                        <th style="width: 16%;">Business Model & Approximate Cost</th>
+                        <th style="width: 16%;">Discounts for Non-Commercial Hobby Groups</th>
+                        <th style="width: 8%;">Nearby Hotel Accommodations</th>
+                        <th style="width: 12%;">Public Transportation Access</th>
+                        <th style="width: 7%;">Distance to Nearest International Airport (ORD/MDW)</th>
+                        <th style="width: 10%;">Surrounding Attractions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Post 433</td>
+                        <td>433 W. Van Buren St., Chicago, IL 60607</td>
+                        <td><a href="https://post433.com/" target="_blank">post433.com</a></td>
+                        <td>Exterior: Old Chicago Main Post Office building, Art Deco style. Interior: Renovated 16 million sq ft space.</td>
+                        <td>Primarily commercial office building, event spaces for rent. Contact directly for event rental rates.</td>
+                        <td>No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>Not explicitly mentioned, but in West Loop/Downtown Chicago.</td>
+                        <td>CTA Blue Line (Jackson), CTA Orange Line (Roosevelt), CTA Brown/Pink/Purple Line (LaSalle/Van Buren) within walking distance. Numerous bus routes.</td>
+                        <td>ORD: 18.0 miles (~45 min by CTA Blue Line). MDW: 11.0 miles (~21 min by CTA Orange Line).</td>
+                        <td>Willis Tower (Skywalk Chicago), Chicago Riverwalk, Navy Pier, McCormick Place.</td>
+                    </tr>
+                    <tr>
+                        <td>Sheraton Grand - Riverwalk A</td>
+                        <td>301 E. North Water St., Chicago, IL 60611</td>
+                        <td><a href="https://www.marriott.com/en-us/hotels/chigs-sheraton-grand-chicago-riverwalk/overview/" target="_blank">marriott.com/en-us/hotels/chigs-sheraton-grand-chicago-riverwalk/overview/</a></td>
+                        <td>Exterior: Along Chicago Riverwalk. Interior: Newly refreshed guest rooms, 125,000 sq ft event space, 40,000 sq ft ballroom.</td>
+                        <td>Hotel event space rental with catering packages. Example catering: Coffee Break $40/person, Continental Breakfast $45/person, Lunch $67/person, Dinner $95/person, Reception $32/person. Promotional rates for groups.</td>
+                        <td>Offers general group discounts for lodging. No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>On-site hotel with 1,218 guest rooms.</td>
+                        <td>Along Chicago Riverwalk. CTA buses, Metra (via transfer), water taxis (seasonal), Uber/Lyft, Taxi.</td>
+                        <td>ORD: 18 miles (~41 min by subway). MDW: 13 miles (~26 min).</td>
+                        <td>Navy Pier, Millennium Park, Michigan Avenue shopping, Field Museum, Art Institute.</td>
+                    </tr>
+                    <tr>
+                        <td>Chicago Marriott (O'Hare)</td>
+                        <td>8535 W Higgins Rd, Chicago, IL 60631</td>
+                        <td><a href="https://www.marriott.com/en-us/hotels/ordoh-chicago-marriott-o-hare/overview/" target="_blank">marriott.com/en-us/hotels/ordoh-chicago-marriott-o-hare/overview/</a></td>
+                        <td>34,800 sq ft of flexible event space, including Grand, Chicago, O'Hare Ballrooms.</td>
+                        <td>Hotel event space rental with banquet menus. Banquet Menu: $10 - $85/person. Wedding Packages: $60 - $125/person. Deposit required for packages.</td>
+                        <td>No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>On-site hotel with 470 rooms. Nearby hotels available.</td>
+                        <td>Free airport shuttle. Near CTA Blue Line (Cumberland Station - 14 min walk).</td>
+                        <td>ORD: 3 miles (10-15 min shuttle). MDW: 28 miles (~1h 30m by CTA).</td>
+                        <td>Donald E. Stephens Convention Center, Rivers Casino, Rosemont Theatre, Fashion Outlets of Chicago.</td>
+                    </tr>
+                    <tr>
+                        <td>McCormick Place</td>
+                        <td>2301 S. King Dr., Chicago IL 60616</td>
+                        <td><a href="https://www.mccormickplace.com/" target="_blank">mccormickplace.com</a></td>
+                        <td>2.6 million sq ft of exhibition space, 173 meeting rooms, large ballrooms, theaters. Rooftop Garden.</td>
+                        <td>Convention center for large conventions, trade shows, and public events. Requires RFP for pricing. Cashless campus. No advance funds drawn.</td>
+                        <td>Discounts on orders if submitted by deadline. Exemptions for amusement taxes for 501(c)(3) organizations (requires application) for public events with admission fees.</td>
+                        <td>Nearly 3,000 attached hotel rooms (Hyatt Regency, Marriott Marquis).</td>
+                        <td>CTA Red-Line (Cermak-Chinatown), Green-Line (Cermak-McCormick Place). #3 Bus stop. Divvy bike station. Airport Express shuttle.</td>
+                        <td>ORD: 21 miles (~1h 4m). MDW: 9 miles (~38 min).</td>
+                        <td>Millennium Park, Museum of Science & Industry, Willis Tower, Navy Pier, Field Museum.</td>
+                    </tr>
+                    <tr>
+                        <td>Navy Pier</td>
+                        <td>600 E. Grand Avenue, Chicago, IL</td>
+                        <td><a href="https://navypier.org/" target="_blank">navypier.org</a></td>
+                        <td>Aon Grand Ballroom, Festival Hall, Lakeview Terrace, Meeting Rooms. Photo gallery available.</td>
+                        <td>Not-For-Profit Landmark. Venues for private events. Requires "Request for Proposal" for pricing. Admission to attractions is ticketed separately.</td>
+                        <td>"Community Rides" offers free Centennial Ferris Wheel tickets and transportation stipends to local schools and 501c3 nonprofit organizations (not direct event rental discounts).</td>
+                        <td>Sable at Navy Pier (on-site hotel).</td>
+                        <td>CTA buses (#29, #65, #66, #124, #2), Metra (transfer), water taxis (seasonal), Uber/Lyft, Taxi.</td>
+                        <td>ORD: 19.1 miles (~1h 10m by bus/subway). MDW: 13 miles (~26 min).</td>
+                        <td>Centennial Wheel & Rides, Architecture River Cruise, Chicago Children's Museum, Chicago Shakespeare Theater.</td>
+                    </tr>
+                    <tr>
+                        <td>Rosemont Convention Center</td>
+                        <td>5555 North River Road, Rosemont, IL 60018</td>
+                        <td><a href="https://rosemont.com/desconvention" target="_blank">rosemont.com/desconvention</a></td>
+                        <td>840,000 sq ft exhibition space; 55,000 sq ft event space. Galleries section available.</td>
+                        <td>Large-scale convention and exhibition center. Flexible space for 80 to 8,000 people. Requires RFP for event rental pricing.</td>
+                        <td>"SHOW YOUR BADGE" discount dining program for visitors. No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>Many hotels in Rosemont offer free airport shuttles and are near the convention center.</td>
+                        <td>Metra North Central line. CTA Blue Line Rosemont stop (5 min drive). Free Rosemont Shuttle (Entertainment Circulator). Free airport shuttle.</td>
+                        <td>ORD: ~4 miles (~10-15 min by CTA Blue Line). MDW: 19.8 miles (~1h 10m by subway).</td>
+                        <td>Fashion Outlets of Chicago, Zanies Comedy Club, iFly Indoor Skydiving, Parkway Bank Park Entertainment District.</td>
+                    </tr>
+                    <tr>
+                        <td>Artifact Events</td>
+                        <td>4325 N Ravenswood Ave, Chicago, IL 60613</td>
+                        <td><a href="https://artifacteventschicago.com/" target="_blank">artifacteventschicago.com</a></td>
+                        <td>Exterior: 100+ year old factory buildings, enclosed courtyard. Interior: 28,000 sq ft industrial/loft style space, high ceilings.</td>
+                        <td>Event venue for weddings, corporate, fundraisers. Requires direct contact for event rental pricing. Preferred caterers list. Deposit at contract signing.</td>
+                        <td>Offers reduced rates for Non-for-Profits for event rentals. Pricing varies; contact sales office.</td>
+                        <td>Not explicitly mentioned.</td>
+                        <td>Short walk from Montrose Brown Line and Metra Ravenswood stop. Ample free street parking.</td>
+                        <td>ORD: ~18 miles (~50 min by subway). MDW: ~10-11 miles (~27 min by subway).</td>
+                        <td>Ravenswood neighborhood: artists lofts, industrial production, breweries, shops, restaurants.</td>
+                    </tr>
+                    <tr>
+                        <td>Loews Chicago O'Hare Hotel</td>
+                        <td>5300 N River Rd, Rosemont, IL 60018</td>
+                        <td><a href="https://www.loewshotels.com/chicago-ohare" target="_blank">loewshotels.com/chicago-ohare</a></td>
+                        <td>Exterior: Modern airport hotel. Interior: 556 rooms, 53,000 sq ft meeting space (ballrooms, meeting rooms). Photo gallery available.</td>
+                        <td>Hotel event space rental. Requires direct inquiry for event rental pricing.</td>
+                        <td>"Neighborhood Perks" (up to 20% off for small/mid-sized businesses). Corporate, AAA, AARP discounts. No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>On-site hotel with 556 rooms. Close to Donald E. Stephens Convention Center.</td>
+                        <td>24-hour complimentary shuttle to O'Hare, CTA Blue Line, and Rosemont Metra Rail station.</td>
+                        <td>ORD: "Just minutes" (2-3 miles). MDW: 14.25 miles (~26 min by public transit).</td>
+                        <td>Fashion Outlets of Chicago, Rosemont Theatre, Donald E Stephens Convention Center, Parkway Bank Park.</td>
+                    </tr>
+                    <tr>
+                        <td>DoubleTree by Hilton Rosemont</td>
+                        <td>5460 N. River Rd., Rosemont, IL 60018</td>
+                        <td><a href="https://www.hilton.com/en/hotels/chidtdt-doubletree-chicago-ohare-airport-rosemont/overview/" target="_blank">hilton.com/en/hotels/chidtdt-doubletree-chicago-ohare-airport-rosemont/overview/</a></td>
+                        <td>13,519 sq ft total event space, 12 meeting rooms, Signature Ballroom. Virtual tour available.</td>
+                        <td>Hotel event space rental with packages. Wedding packages starting $99/person. Couples usually spend $25,000 for full wedding services.</td>
+                        <td>AAA/CAA rates (up to 10% off). No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>On-site hotel. Connected to Donald E Stephens Convention Center.</td>
+                        <td>Complimentary shuttle service to O'Hare Airport 24 hours a day. Proximity to Rosemont Entertainment District.</td>
+                        <td>ORD: "minutes from" (2-3 miles). MDW: 14.5 miles.</td>
+                        <td>Rosemont Theatre, Parkway Bank Park Entertainment District, LEGOLAND® Discovery Center, Fashion Outlets.</td>
+                    </tr>
+                    <tr>
+                        <td>Concorde Banquets</td>
+                        <td>20922 N Rand Road, Kildeer, IL 60047</td>
+                        <td><a href="https://concordebanquets.com/" target="_blank">concordebanquets.com</a></td>
+                        <td>Exterior: Lush gardens, swan-filled pond, gazebo. Interior: Spacious ballrooms, ceremony room. Photos available.</td>
+                        <td>Banquet facility for various events. All-inclusive pricing. Est. Cost Per Guest $99 (taxes/fees/catering included, beverages not). In-house catering.</td>
+                        <td>With verification of non-profit status, non-profit organizations may receive a $15 discount on the hourly cost for event rentals.</td>
+                        <td>No on-site guest accommodations.</td>
+                        <td>Located in Kildeer, 20 minutes northwest of O'Hare Airport. Emphasizes driving distance. No direct public transit access mentioned.</td>
+                        <td>ORD: "20 minutes from O'Hare Airport". MDW: Likely further than O'Hare.</td>
+                        <td>Lush grounds, swan-filled pond, romantic gazebo. Forest/Woods, Garden, Lake.</td>
+                    </tr>
+                    <tr>
+                        <td>Harold Washington Public Library, Winter Garden</td>
+                        <td>400 South State Street, Chicago, IL, USA</td>
+                        <td><a href="https://www.chipublib.org/" target="_blank">chipublib.org</a></td>
+                        <td>Exterior: Postmodern architectural style. Interior: Winter Garden (9th floor) - elegant, spacious atrium, 52-foot glass-paneled dome. South Hall, Grand Lobby.</td>
+                        <td>Public library, offers event rental. Winter Garden Rental (4-hour): Corporate $6,750-$7,500; Nonprofit $5,250-$6,000; Wedding $7,000. Additional hour: $500. $1,000 refundable security deposit.</td>
+                        <td>Explicitly offers discounted rates for non-profit organizations for Winter Garden event rentals.</td>
+                        <td>Not explicitly mentioned, but its Loop location implies many nearby hotels.</td>
+                        <td>CTA 'L' lines: Red, Blue, Brown, Orange, Pink, Purple Express, Green Lines (Jackson/Harold Washington Library-State/Van Buren). Numerous CTA buses.</td>
+                        <td>ORD: 18 miles (~49 min by subway). MDW: 10 miles (~24 min by subway).</td>
+                        <td>Rookery Building, Art Institute of Chicago, Millennium Park, Skydeck Chicago (Willis Tower), Cloud Gate (The Bean), Chicago Cultural Center.</td>
+                    </tr>
+                    <tr>
+                        <td>Irish American Heritage Center</td>
+                        <td>4626 N Knox Ave, Chicago, IL 60630</td>
+                        <td><a href="https://irish-american.org/" target="_blank">irish-american.org</a></td>
+                        <td>Exterior: "Hidden jewel," lush grounds, outdoor wedding garden, pond, gazebo. Interior: Erin Room, Fifth Province Hall, Mayfair Theater, various rooms.</td>
+                        <td>Venue for meetings, social events, group celebrations. Rentals on daily and hourly basis for event spaces. Requires direct contact for pricing.</td>
+                        <td>Membership benefits include "member-only discounted tickets for concerts and shows" (for their own events, not venue rental for external hobby groups).</td>
+                        <td>Not explicitly mentioned.</td>
+                        <td>CTA Blue Line (Montrose), CTA Brown Line (Kimball, then bus). Buses: 54A, 78, 81. Train: MD-N, UP-NW.</td>
+                        <td>ORD: 8 miles. MDW: 18 miles (~44 min by subway).</td>
+                        <td>Exhibits, performances, historic museum, musical programs, Irish history library.</td>
+                    </tr>
+                    <tr>
+                        <td>Salt Shed</td>
+                        <td>1357 NORTH ELSTON AVE. CHICAGO, IL 60642</td>
+                        <td><a href="https://saltshedchicago.com/" target="_blank">saltshedchicago.com</a></td>
+                        <td>Exterior: Old Morton Salt factory, unique A-Frame structure. Interior: "The Shed" (main venue), "Fairgrounds" (outdoor), "Three Top Lounge", "Elston Electric".</td>
+                        <td>Primarily a live music venue, also offers private event rentals. Requires direct contact for event rental pricing.</td>
+                        <td>For some concerts, $1 per ticket benefits a charitable organization (philanthropic, not a direct rental discount for hobby groups).</td>
+                        <td>Not explicitly mentioned.</td>
+                        <td>CTA Blue Line (Division/Milwaukee - 0.7 miles), Red Line (North/Clybourn - 0.9 miles). Several buses (70, 72, 9). Encourages public transit.</td>
+                        <td>ORD: ~17 miles. MDW: 15 miles (~46 min by train).</td>
+                        <td>On-site: Fret 12, Umbrella Vintage, Loud Pizza Records, Pizza Friendly Pizza, Goose Island Salt Shed Pub. Hosts markets, film festivals.</td>
+                    </tr>
+                    <tr>
+                        <td>venue six10</td>
+                        <td>610 S Michigan Ave, Chicago, IL 60605</td>
+                        <td><a href="https://venuesix10.com/" target="_blank">venuesix10.com</a></td>
+                        <td>Exterior: 10-story faceted window wall with panoramic views. Interior: Four main event spaces, 13 breakout spaces. Contemporary design, floor-to-ceiling windows.</td>
+                        <td>Event venue for weddings, corporate, non-profits. Minimum Spend $6,750 for wedding package. Catering by select caterers. Requires direct contact for other event rental pricing.</td>
+                        <td>Lists non-profits as a client segment. No explicit statement of a discounted rate for non-profits for event rentals.</td>
+                        <td>Not explicitly mentioned, but its Michigan Avenue location implies many nearby hotels.</td>
+                        <td>Harrison Red Line Stop (5 min walk). Harold Washington Library (Brown, Orange, Pink, Purple Line Stops - 8 min walk). Numerous bus stops. Covered self-parking with discount.</td>
+                        <td>ORD: ~18 miles (~47 min by subway). MDW: ~11-12 miles (~35 min by subway).</td>
+                        <td>Grant Park, Lake Michigan, Buckingham Fountain, Navy Pier, Museum Campus, Art Institute.</td>
+                    </tr>
+                    <tr>
+                        <td>moonlight studios</td>
+                        <td>1446 West Kinzie St. Chicago, IL 60642</td>
+                        <td><a href="https://moonlight-studios.com/" target="_blank">moonlight-studios.com</a></td>
+                        <td>Exterior: Repurposed factory, industrial chic. Interior: 15,000+ sq ft, 6,000 sq ft open studio, 4,000 sq ft gallery. Modern finishes, reclaimed accents.</td>
+                        <td>Event venue and production studio. Minimum Spend $8,950 for event rental. Est. Cost Per Guest $80 (includes venue rental, cleaning, admin fees; catering/beverages not included). 50% deposit. COI required.</td>
+                        <td>Offers 20% discount for Nonprofits for event rentals.</td>
+                        <td>Not explicitly mentioned, but in West Loop neighborhood.</td>
+                        <td>Located in West Loop. Easy access to major corporate offices. Proximity to CTA Green/Pink Line and various bus routes implied.</td>
+                        <td>ORD: 16.1 miles (~45 min). MDW: 11.8 miles (~25 min).</td>
+                        <td>West Loop neighborhood. The Den Theatre, Everything Bar, Morgan MFG.</td>
+                    </tr>
+                    <tr>
+                        <td>the dalcy</td>
+                        <td>302 N Green Street 3rd Floor, Chicago, IL, 60607</td>
+                        <td><a href="https://thedalcy.com/" target="_blank">thedalcy.com</a></td>
+                        <td>Exterior: Historic Fulton Market District, 4,000 sq ft rooftop patio. Interior: 6,000 sq ft venue (Ballroom, Banquet Hall, Loft). Rustic meets elegance. Gallery available.</td>
+                        <td>Private event hall for cocktail receptions, weddings, social/business gatherings. Personalized menu cards, all-inclusive packages for weddings. Meetings: 30-300 people, includes F&B, A.V. Minimum spend for F&B applies to event rentals. 11.75% Chicago City Venue tax. 25-50% deposit.</td>
+                        <td>Participates in Lettuce Entertain You Frequent Diner Program (loyalty for dining, not event rental discounts for hobby groups). No explicit mention for non-commercial hobby groups.</td>
+                        <td>Not explicitly mentioned, but its Fulton Market District location implies many nearby hotels.</td>
+                        <td>Located in West Town / Fulton Market District. Proximity to various CTA lines (Brown, Orange, Pink, Purple, Red, Blue, Green) and numerous bus routes implied.</td>
+                        <td>ORD: ~18 miles (~47 min by subway). MDW: ~11-12 miles (~35 min by subway).</td>
+                        <td>Historic Fulton Market District. Aba (restaurant on same floor). General downtown Chicago attractions.</td>
+                    </tr>
+                    <tr>
+                        <td>chicago cultural center</td>
+                        <td>78 East Washington, Chicago, Illinois 60602</td>
+                        <td><a href="https://www.chicago.gov/city/en/depts/dca/supp_info/ccc.html" target="_blank">chicago.gov/city/en/depts/dca/supp_info/ccc.html</a></td>
+                        <td>Exterior: Acclaimed landmark. Interior: World's largest Tiffany stained-glass dome, G.A.R. Hall and Rotunda, Preston Bradley Hall's Tiffany Dome. Imported marble, fine hardwoods. Photos available.</td>
+                        <td>Free admission for general entry and exhibitions. Offers spaces for private event rentals, wedding ceremonies/receptions. Wedding Packages: $13,200-$16,500 (6 hours event time, security, custodial, equipment, dance floor). Additional hour: $1,000/hour. 20% deposit. No in-house catering.</td>
+                        <td>No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>Not explicitly mentioned, but its Loop location implies many nearby hotels.</td>
+                        <td>CTA 'L' lines: Washington/Wabash (elevated), Lake (Red Line subway), Washington (Blue Line subway). Numerous CTA buses. Metra commuter rail lines nearby. Divvy Bike station.</td>
+                        <td>ORD: 18.2 miles (~47 min by subway). MDW: 10.7 miles (~35 min by subway).</td>
+                        <td>Millennium Park (across street), Art Institute of Chicago, Grant Park, Chicago Riverwalk, The Bean.</td>
+                    </tr>
+                    <tr>
+                        <td>the drake hotel</td>
+                        <td>140 East Walton Place, Chicago, IL 60611-1501</td>
+                        <td><a href="https://thedrakehotel.com/" target="_blank">thedrakehotel.com</a></td>
+                        <td>Exterior: 1920 Italian Renaissance style, on Magnificent Mile. Interior: Lobby, rooms, meeting spaces, restaurants. Gold Coast Room, Grand Ballroom, various other rooms.</td>
+                        <td>Luxury hotel event space rental. Over 30,000 sq ft of meeting space for 5-600 guests. Wedding pricing: $26,200 starting, usually $35,250 for event services. Customized quote required.</td>
+                        <td>"Group Discounts Available" for lodging. AAA/CAA, AARP, Senior, Military Family, Honors Discount. No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>On-site hotel with 535 rooms, 73 suites.</td>
+                        <td>Located on Magnificent Mile. Continental Air Transport airport shuttle. CTA Blue/Orange Line (with taxi transfer).</td>
+                        <td>ORD: 18 miles (~30-45 min by taxi/shuttle/train). MDW: 13 miles (~25-30 min by taxi/shuttle/train).</td>
+                        <td>Magnificent Mile, Oak Street Beach, Gold Coast, Navy Pier, museums.</td>
+                    </tr>
+                    <tr>
+                        <td>aloft chicago rosemont</td>
+                        <td>9700 Balmoral Ave, Rosemont, IL 60018</td>
+                        <td><a href="https://www.marriott.com/en-us/hotels/chial-aloft-chicago-o-hare/events/" target="_blank">marriott.com/en-us/hotels/chial-aloft-chicago-o-hare/events</a></td>
+                        <td>Exterior: Loft-inspired design hotel. Interior: Six event rooms, 1,738 sq ft total event space, capacity up to 150. Meeting rooms. Gallery available.</td>
+                        <td>Hotel event space rental. No rental fee for reception, but food and beverage minimum applies. Wedding ceremony setup fee: $1,500. Refundable security deposit: $500.</td>
+                        <td>AAA discount, AARP discount. Special group rates for 10+ rooms. No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>On-site hotel. Walking distance to Fashion Outlets of Chicago and Stephens Convention Center.</td>
+                        <td>Shuttle service twice hourly to Chicago O'Hare International Airport. Walking distance from Donald E. Stephens Convention Center, Rosemont Theatre, Parkway Bank Park.</td>
+                        <td>ORD: "minutes from" (2-3 miles). MDW: 15 miles (~1h 24m).</td>
+                        <td>Fashion Outlets of Chicago, Donald E. Stephens Convention Center, Rosemont Theatre, Parkway Bank Park Entertainment District.</td>
+                    </tr>
+                    <tr>
+                        <td>O'hare tech center</td>
+                        <td>9950 Lawrence Ave, Schiller Park, IL 60176</td>
+                        <td><a href="https://oharetechcenter.com/" target="_blank">oharetechcenter.com</a></td>
+                        <td>Exterior: Stunning wedding & event venue, new and modern settings. Gallery section on website. Interior: 4 banquet halls, open space, new technology.</td>
+                        <td>Wedding and event venue for corporate meetings, conferences, celebrations. Customizable menus. In-house catering. Requires direct contact for event rental pricing.</td>
+                        <td>No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>Not explicitly mentioned, but its proximity to O'Hare implies many nearby airport hotels.</td>
+                        <td>Proximity to O'Hare International Airport. CTA Blue Line from O'Hare. Metra North Central Service. Pace Bus. Airport Express Shuttle.</td>
+                        <td>ORD: Very close (implied by name and Schiller Park location). MDW: Accessible via CTA Blue Line transfer to Orange Line.</td>
+                        <td>Rivers Casino, Donald E. Stephens Convention Center, Parkway Bank Park Entertainment District, Rosemont Theatre.</td>
+                    </tr>
+                    <tr>
+                        <td>Ravenswood Event Center</td>
+                        <td>4043 N Ravenswood Ave, Chicago, IL 60613</td>
+                        <td><a href="https://www.ravenswoodeventcenter.com/showroom" target="_blank">ravenswoodeventcenter.com/showroom</a></td>
+                        <td>Exterior: Brick building, industrial style. Interior: High ceilings, exposed brick, industrial chic, large open spaces, various rooms (showroom, atrium, vintage car museum). Gallery available.</td>
+                        <td>Event venue for corporate events, weddings, social gatherings. Offers various spaces for rental. Requires inquiry for specific event rental pricing.</td>
+                        <td>No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>Not explicitly mentioned, but hotels in Lincoln Park, Lakeview, or downtown accessible via transit.</td>
+                        <td>Metra Ravenswood stop (UP-N line) very close. CTA Brown Line (Montrose or Irving Park stops) walkable. Numerous bus routes.</td>
+                        <td>ORD: ~12 miles. MDW: ~18 miles.</td>
+                        <td>Ravenswood neighborhood (breweries, art studios, shops), close to Lincoln Square.</td>
+                    </tr>
+                    <tr>
+                        <td>Morgan Manufacturing</td>
+                        <td>401 N Morgan St, Chicago, IL 60642</td>
+                        <td><a href="https://morgan-mfg.com/event-space/" target="_blank">morgan-mfg.com/event-space/</a></td>
+                        <td>Exterior: Large brick industrial building. Interior: Multi-level, industrial chic, exposed brick, high ceilings, raw space, various rooms (Main Hall, Gallery, Loft, Boiler Room). Gallery available.</td>
+                        <td>Event venue for corporate events, weddings, fashion shows, product launches. Offers various spaces for rental. Requires inquiry for specific event rental pricing.</td>
+                        <td>No explicit mention of discounts for non-commercial hobby groups for event rentals.</td>
+                        <td>Not explicitly mentioned, but in West Loop/Fulton Market, many hotels nearby (e.g., Ace Hotel, Hoxton).</td>
+                        <td>CTA Green/Pink Line (Morgan stop) very close. CTA Blue Line (Grand or Clinton stops) walkable. Numerous bus routes.</td>
+                        <td>ORD: ~16 miles. MDW: ~11 miles.</td>
+                        <td>Fulton Market District (restaurants, nightlife), West Loop.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
